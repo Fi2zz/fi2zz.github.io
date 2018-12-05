@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "cd ./pwa && npm run build"
+    "build": "cd ./pwa && npm run build",
+    "add": "sh ./git_add.sh",
+    "push": "sh ./git_push.sh"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,10 @@
     "pre-commit": "^1.2.2"
   },
   "pre-commit": [
-    "build"
+    "build",
+    "add"
+  ],
+  "post-commit": [
+    "push"
   ]
 }
