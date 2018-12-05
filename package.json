@@ -1,0 +1,26 @@
+{
+  "name": "fi2zz.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd ./pwa && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fi2zz/fi2zz.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fi2zz/fi2zz.github.io/issues"
+  },
+  "homepage": "https://github.com/Fi2zz/fi2zz.github.io#readme",
+  "dependencies": {
+    "post-commit": "^0.0.1",
+    "pre-commit": "^1.2.2"
+  },
+  "pre-commit": [
+    "build"
+  ]
+}
