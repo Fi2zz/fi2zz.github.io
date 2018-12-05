@@ -26,11 +26,5 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "pre-commit": [
-    "build",
-    "git:add"
-  ],
-  "post-commit": [
-    "git:push"
-  ]
+  "homepage": "http://fi2zz.github.io/pwa"
 }
