@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "cd ./pwa && npm run build",
+    "copy": "node ./copy_before_push.js",
     "add": "sh ./git_add.sh",
     "push": "sh ./git_push.sh"
   },
@@ -19,11 +20,13 @@
   },
   "homepage": "https://github.com/Fi2zz/fi2zz.github.io#readme",
   "dependencies": {
+    "fs-extra": "^7.0.1",
     "post-commit": "^0.0.1",
     "pre-commit": "^1.2.2"
   },
   "pre-commit": [
     "build",
+    "copy",
     "add"
   ],
   "post-commit": [
