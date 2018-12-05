@@ -29,6 +29,7 @@
     "clean-pwa",
     "build",
     "copy",
+    "clean-pwa",
     "add"
   ],
   "post-commit": [
