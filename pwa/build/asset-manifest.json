@@ -1,13 +1,13 @@
 {
-  "main.css": "./pwa/build/static/css/main.799b1836.chunk.css",
-  "main.js": "./pwa/build/static/js/main.c48b0e35.chunk.js",
-  "main.js.map": "./pwa/build/static/js/main.c48b0e35.chunk.js.map",
-  "static/js/1.324b6cf3.chunk.js": "./pwa/build/static/js/1.324b6cf3.chunk.js",
-  "static/js/1.324b6cf3.chunk.js.map": "./pwa/build/static/js/1.324b6cf3.chunk.js.map",
-  "runtime~main.js": "./pwa/build/static/js/runtime~main.0c13c42d.js",
-  "runtime~main.js.map": "./pwa/build/static/js/runtime~main.0c13c42d.js.map",
-  "static/css/main.799b1836.chunk.css.map": "./pwa/build/static/css/main.799b1836.chunk.css.map",
-  "index.html": "./pwa/build/index.html",
-  "precache-manifest.ff5ce213f05a4d278c6ad4fb771ce6a5.js": "./pwa/build/precache-manifest.ff5ce213f05a4d278c6ad4fb771ce6a5.js",
-  "service-worker.js": "./pwa/build/service-worker.js"
+  "main.css": "/static/css/main.799b1836.chunk.css",
+  "main.js": "/static/js/main.13ee0718.chunk.js",
+  "main.js.map": "/static/js/main.13ee0718.chunk.js.map",
+  "static/js/1.324b6cf3.chunk.js": "/static/js/1.324b6cf3.chunk.js",
+  "static/js/1.324b6cf3.chunk.js.map": "/static/js/1.324b6cf3.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
+  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
+  "static/css/main.799b1836.chunk.css.map": "/static/css/main.799b1836.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.f1bd5bc08a8c71109725d575ef86cd7a.js": "/precache-manifest.f1bd5bc08a8c71109725d575ef86cd7a.js",
+  "service-worker.js": "/service-worker.js"
 }
