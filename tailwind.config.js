@@ -4,7 +4,16 @@ module.exports = {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Space Grotesk', 'Inter', 'system-ui', 'sans-serif'],
+        mono: ['Space Grotesk', 'monospace'],
+      },
       colors: {
+        void: '#000000',
+        'void-light': '#111111',
+        'text-primary': '#ffffff',
+        'text-secondary': '#666666',
+        'border-subtle': '#333333',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
