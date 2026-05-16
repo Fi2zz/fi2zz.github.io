@@ -36,11 +36,6 @@
     background-color: #000000;
     color: #ffffff;
     overflow-x: hidden;
-    cursor: none;
-  }
-
-  * {
-    cursor: none;
   }
 
   ::selection {

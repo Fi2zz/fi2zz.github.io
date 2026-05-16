@@ -1,5 +1,3 @@
-import { useEffect, useRef } from "react";
-import Lenis from "@studio-freight/lenis";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 // import CustomCursor from "./components/CustomCursor";
@@ -11,29 +9,29 @@ import HeroSection from "./sections/HeroSection";
 gsap.registerPlugin(ScrollTrigger);
 
 function App() {
-	const lenisRef = useRef<Lenis | null>(null);
+	// const lenisRef = useRef<Lenis | null>(null);
 
-	useEffect(() => {
-		// Initialize Lenis smooth scroll
-		const lenis = new Lenis({
-			lerp: 0.05,
-			smoothWheel: true,
-		});
-		lenisRef.current = lenis;
+	// useEffect(() => {
+	// 	// Initialize Lenis smooth scroll
+	// 	const lenis = new Lenis({
+	// 		lerp: 0.05,
+	// 		smoothWheel: true,
+	// 	});
+	// 	lenisRef.current = lenis;
 
-		// Connect Lenis to GSAP ScrollTrigger
-		lenis.on("scroll", ScrollTrigger.update);
+	// 	// Connect Lenis to GSAP ScrollTrigger
+	// 	lenis.on("scroll", ScrollTrigger.update);
 
-		gsap.ticker.add((time) => {
-			lenis.raf(time * 1000);
-		});
-		gsap.ticker.lagSmoothing(0);
+	// 	gsap.ticker.add((time) => {
+	// 		lenis.raf(time * 1000);
+	// 	});
+	// 	gsap.ticker.lagSmoothing(0);
 
-		return () => {
-			lenis.destroy();
-			gsap.ticker.remove(lenis.raf);
-		};
-	}, []);
+	// 	return () => {
+	// 		lenis.destroy();
+	// 		gsap.ticker.remove(lenis.raf);
+	// 	};
+	// }, []);
 
 	return (
 		<div style={{ backgroundColor: "#000000", minHeight: "100vh" }}>
