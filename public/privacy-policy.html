@@ -1,263 +1,203 @@
 <!doctype html>
 <html lang="zh-CN">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<title>隐私政策 - 练啥</title>
-		<style>
-			:root {
-				color-scheme: light dark;
-				--bg: #ffffff;
-				--fg: #0b0b0c;
-				--muted: #6b7280;
-				--card: #f6f7f9;
-				--border: rgba(0, 0, 0, 0.08);
-				--link: #2563eb;
-			}
-			@media (prefers-color-scheme: dark) {
-				:root {
-					--bg: #0b0b0c;
-					--fg: #f5f5f7;
-					--muted: rgba(245, 245, 247, 0.65);
-					--card: rgba(255, 255, 255, 0.06);
-					--border: rgba(255, 255, 255, 0.1);
-					--link: #60a5fa;
-				}
-			}
-			html,
-			body {
-				height: 100%;
-			}
-			body {
-				margin: 0;
-				background: var(--bg);
-				color: var(--fg);
-				font:
-					16px/1.75 -apple-system,
-					BlinkMacSystemFont,
-					"SF Pro Text",
-					"SF Pro SC",
-					"PingFang SC",
-					"Noto Sans CJK SC",
-					"Helvetica Neue",
-					Arial,
-					sans-serif;
-			}
-			main {
-				max-width: 760px;
-				margin: 0 auto;
-				padding: 28px 20px 56px;
-			}
-			header {
-				margin-bottom: 24px;
-				padding-bottom: 14px;
-				border-bottom: 1px solid var(--border);
-			}
-			h1 {
-				font-size: 26px;
-				line-height: 1.25;
-				margin: 0 0 8px;
-				letter-spacing: -0.02em;
-			}
-			.meta {
-				color: var(--muted);
-				font-size: 13px;
-			}
-			h2 {
-				font-size: 17px;
-				margin: 24px 0 10px;
-			}
-			p {
-				margin: 10px 0;
-			}
-			ul {
-				margin: 10px 0 10px 18px;
-				padding: 0;
-			}
-			li {
-				margin: 6px 0;
-			}
-			.note {
-				background: var(--card);
-				border: 1px solid var(--border);
-				border-radius: 12px;
-				padding: 14px 14px;
-				margin: 14px 0;
-			}
-			a {
-				color: var(--link);
-				text-decoration: none;
-			}
-			a:hover {
-				text-decoration: underline;
-			}
-		</style>
-	</head>
-	<body>
-		<main>
-			<header>
-				<h1>隐私政策</h1>
-				<div class="meta">最后更新日期：2026年7月30日</div>
-			</header>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>隐私政策 - 练啥</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        --bg: #ffffff;
+        --fg: #0b0b0c;
+        --muted: #6b7280;
+        --card: #f6f7f9;
+        --border: rgba(0, 0, 0, 0.08);
+        --link: #2563eb;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #0b0b0c;
+          --fg: #f5f5f7;
+          --muted: rgba(245, 245, 247, 0.65);
+          --card: rgba(255, 255, 255, 0.06);
+          --border: rgba(255, 255, 255, 0.10);
+          --link: #60a5fa;
+        }
+      }
+      html,
+      body {
+        height: 100%;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--fg);
+        font: 16px/1.75 -apple-system, BlinkMacSystemFont, "SF Pro Text",
+          "SF Pro SC", "PingFang SC", "Noto Sans CJK SC", "Helvetica Neue",
+          Arial, sans-serif;
+      }
+      main {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 28px 20px 56px;
+      }
+      header {
+        margin-bottom: 24px;
+        padding-bottom: 14px;
+        border-bottom: 1px solid var(--border);
+      }
+      h1 {
+        font-size: 26px;
+        line-height: 1.25;
+        margin: 0 0 8px;
+        letter-spacing: -0.02em;
+      }
+      .meta {
+        color: var(--muted);
+        font-size: 13px;
+      }
+      h2 {
+        font-size: 17px;
+        margin: 24px 0 10px;
+      }
+      p {
+        margin: 10px 0;
+      }
+      ul {
+        margin: 10px 0 10px 18px;
+        padding: 0;
+      }
+      li {
+        margin: 6px 0;
+      }
+      .note {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 14px 14px;
+        margin: 14px 0;
+      }
+      a {
+        color: var(--link);
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>隐私政策</h1>
+        <div class="meta">最后更新日期：2026年7月30日</div>
+      </header>
 
-			<h2>1. 引言</h2>
-			<p>
-				欢迎使用练啥（英文名
-				Repmind，以下简称“本应用”）。我们非常重视你的隐私与个人信息保护。本政策依据《中华人民共和国个人信息保护法》等法律法规制定，向你说明：我们处理哪些信息、处理目的与方式、存储与删除规则、你的权利以及如何联系我们。
-			</p>
-			<div class="note">
-				本应用是本地优先的单机工具：<strong>无账号体系、无需注册登录</strong>，训练数据默认只保存在你的设备上，不会上传到我们的服务器。首次启动时，我们会在征得你的同意后才开始提供完整服务。
-			</div>
+      <h2>1. 引言</h2>
+      <p>
+        欢迎使用练啥（以下简称“本应用”）。我们非常重视你的隐私与个人信息保护。本政策依据《中华人民共和国个人信息保护法》等法律法规制定，向你说明：我们处理哪些信息、处理目的与方式、存储与删除规则、你的权利以及如何联系我们。
+      </p>
+      <div class="note">
+        本应用是本地优先的单机工具：<strong>无账号体系、无需注册登录</strong>，训练数据默认只保存在你的设备上，不会上传到我们的服务器。首次启动时，我们会在征得你的同意后才开始提供完整服务。
+      </div>
 
-			<h2>2. 我们处理的信息与目的</h2>
-			<p>我们以“最小必要”为原则处理信息，具体如下：</p>
+      <h2>2. 我们处理的信息与目的</h2>
+      <p>我们以“最小必要”为原则处理信息，具体如下：</p>
 
-			<h2>2.1 训练与计划数据（核心功能所必需）</h2>
-			<ul>
-				<li>
-					内容：训练日期、动作类型、组数、次数、重量、训练计划与进度状态等。
-				</li>
-				<li>目的：记录训练、展示历史、管理计划、生成统计与图表。</li>
-				<li>存储位置：仅你的设备本地。</li>
-			</ul>
+      <h2>2.1 训练与计划数据（核心功能所必需）</h2>
+      <ul>
+        <li>内容：训练日期、动作类型、组数、次数、重量、训练计划与进度状态等。</li>
+        <li>目的：记录训练、展示历史、管理计划、生成统计与图表。</li>
+        <li>存储位置：仅你的设备本地。</li>
+      </ul>
 
-			<h2>2.2 你主动记录的信息（可选）</h2>
-			<ul>
-				<li>内容：体重、笔记等你在应用内自行填写的内容。</li>
-				<li>目的：按你的要求进行记录与展示。</li>
-				<li>存储位置：仅你的设备本地。</li>
-			</ul>
+      <h2>2.2 你主动记录的信息（可选）</h2>
+      <ul>
+        <li>内容：体重、笔记等你在应用内自行填写的内容。</li>
+        <li>目的：按你的要求进行记录与展示。</li>
+        <li>存储位置：仅你的设备本地。</li>
+      </ul>
 
-			<h2>2.3 应用内购买状态（可选）</h2>
-			<ul>
-				<li>内容：“是否已解锁高级功能”的本地标记。</li>
-				<li>目的：开通高级功能、换机或重装后恢复购买。</li>
-				<li>
-					说明：购买与支付由 Apple App Store
-					全程处理，我们不会获取你的支付账号、银行卡号等任何支付信息。
-				</li>
-			</ul>
+      <h2>2.3 应用内购买状态（可选）</h2>
+      <ul>
+        <li>内容：“是否已解锁高级功能”的本地标记。</li>
+        <li>目的：开通高级功能、换机或重装后恢复购买。</li>
+        <li>说明：购买与支付由 Apple App Store 全程处理，我们不会获取你的支付账号、银行卡号等任何支付信息。</li>
+      </ul>
 
-			<h2>2.4 iCloud 备份数据（可选，由你主动启用）</h2>
-			<ul>
-				<li>内容：从你的训练数据导出的备份文件。</li>
-				<li>目的：在你的设备之间迁移与恢复数据。</li>
-				<li>
-					存储位置：你的 iCloud 账户（由 Apple
-					提供服务），你可在应用内或系统设置中随时关闭并删除备份。
-				</li>
-			</ul>
+      <h2>2.4 iCloud 备份数据（可选，由你主动启用）</h2>
+      <ul>
+        <li>内容：从你的训练数据导出的备份文件。</li>
+        <li>目的：在你的设备之间迁移与恢复数据。</li>
+        <li>存储位置：你的 iCloud 账户（由 Apple 提供服务），你可在应用内或系统设置中随时关闭并删除备份。</li>
+      </ul>
 
-			<h2>2.5 设备与系统信息</h2>
-			<ul>
-				<li>
-					内容：设备型号、操作系统版本等基础信息（由系统接口提供）。
-				</li>
-				<li>
-					目的：在应用内展示版本与设备信息、适配不同系统版本的功能。
-				</li>
-				<li>
-					说明：本应用不接入任何第三方统计、分析或广告 SDK，不收集
-					IDFA，不进行个性化推荐。
-				</li>
-			</ul>
+      <h2>2.5 设备与系统信息</h2>
+      <ul>
+        <li>内容：设备型号、操作系统版本等基础信息（由系统接口提供）。</li>
+        <li>目的：在应用内展示版本与设备信息、适配不同系统版本的功能。</li>
+        <li>说明：本应用不接入任何第三方统计、分析或广告 SDK，不收集 IDFA，不进行个性化推荐。</li>
+      </ul>
 
-			<h2>3. 信息的存储与删除</h2>
-			<ul>
-				<li>
-					存储地点：默认存储于你的设备本地（iOS 应用沙盒）；启用
-					iCloud 备份后，备份文件存储于你的 iCloud 账户。
-				</li>
-				<li>
-					存储期限：数据在你的设备上保留至你删除为止；卸载本应用将移除全部本地数据。
-				</li>
-				<li>
-					删除方式：你可在应用内逐条删除训练记录，或通过卸载应用一次性清除全部本地数据；iCloud
-					备份可在系统 iCloud 设置中管理或删除。
-				</li>
-			</ul>
+      <h2>3. 信息的存储与删除</h2>
+      <ul>
+        <li>存储地点：默认存储于你的设备本地（iOS 应用沙盒）；启用 iCloud 备份后，备份文件存储于你的 iCloud 账户。</li>
+        <li>存储期限：数据在你的设备上保留至你删除为止；卸载本应用将移除全部本地数据。</li>
+        <li>删除方式：你可在应用内逐条删除训练记录，或通过卸载应用一次性清除全部本地数据；iCloud 备份可在系统 iCloud 设置中管理或删除。</li>
+      </ul>
 
-			<h2>4. 信息共享与第三方服务</h2>
-			<ul>
-				<li>
-					我们不会向任何第三方出售、出租或以其他方式共享你的训练数据。
-				</li>
-				<li>
-					除本政策另有说明或法律法规要求外，我们不会将你的数据上传到我们的服务器。
-				</li>
-				<li>
-					本应用使用的第三方服务仅为 Apple 平台服务：App
-					Store（应用分发与支付）、iCloud（你主动启用的备份）。这些服务对数据的处理受
-					Apple 隐私政策与服务条款约束。
-				</li>
-			</ul>
+      <h2>4. 信息共享与第三方服务</h2>
+      <ul>
+        <li>我们不会向任何第三方出售、出租或以其他方式共享你的训练数据。</li>
+        <li>除本政策另有说明或法律法规要求外，我们不会将你的数据上传到我们的服务器。</li>
+        <li>本应用使用的第三方服务仅为 Apple 平台服务：App Store（应用分发与支付）、iCloud（你主动启用的备份）。这些服务对数据的处理受 Apple 隐私政策与服务条款约束。</li>
+      </ul>
 
-			<h2>5. 数据安全</h2>
-			<p>我们采取以下措施保护你的信息：</p>
-			<ul>
-				<li>
-					依托 iOS
-					系统安全机制（应用沙盒、系统级数据保护）降低未授权访问风险。
-				</li>
-				<li>将数据访问严格限制在本应用功能所必需的范围内。</li>
-			</ul>
-			<p>
-				请你理解：任何系统与网络环境都无法保证绝对安全。启用 iCloud
-				备份时，数据安全同时受 Apple iCloud 安全机制影响。
-			</p>
+      <h2>5. 数据安全</h2>
+      <p>我们采取以下措施保护你的信息：</p>
+      <ul>
+        <li>依托 iOS 系统安全机制（应用沙盒、系统级数据保护）降低未授权访问风险。</li>
+        <li>将数据访问严格限制在本应用功能所必需的范围内。</li>
+      </ul>
+      <p>
+        请你理解：任何系统与网络环境都无法保证绝对安全。启用 iCloud 备份时，数据安全同时受 Apple iCloud 安全机制影响。
+      </p>
 
-			<h2>6. 系统权限与选择</h2>
-			<p>
-				为实现部分功能，本应用可能向你请求系统权限（以系统弹窗为准）。你可以拒绝授权，不影响基础训练记录功能：
-			</p>
-			<ul>
-				<li>
-					通知：用于训练提醒、休息倒计时（仅在你启用相关功能时请求）。
-				</li>
-				<li>iCloud：用于备份与恢复（可随时在系统设置中关闭）。</li>
-			</ul>
-			<p>
-				本应用不请求通讯录、位置、相机、麦克风、相册等与核心功能无关的权限。
-			</p>
+      <h2>6. 系统权限与选择</h2>
+      <p>
+        为实现部分功能，本应用可能向你请求系统权限（以系统弹窗为准）。你可以拒绝授权，不影响基础训练记录功能：
+      </p>
+      <ul>
+        <li>通知：用于训练提醒、休息倒计时（仅在你启用相关功能时请求）。</li>
+        <li>iCloud：用于备份与恢复（可随时在系统设置中关闭）。</li>
+      </ul>
+      <p>本应用不请求通讯录、位置、相机、麦克风、相册等与核心功能无关的权限。</p>
 
-			<h2>7. 你的权利</h2>
-			<p>依据相关法律法规，你对个人信息享有以下权利：</p>
-			<ul>
-				<li>查阅与更正：在应用内直接查看、修改你的全部训练数据。</li>
-				<li>复制与导出：通过 iCloud 备份功能导出你的数据。</li>
-				<li>
-					删除：在应用内删除记录，或通过卸载应用清除全部本地数据。
-				</li>
-				<li>
-					撤回同意：在系统设置中关闭通知、iCloud
-					等权限；撤回不影响此前基于同意已开展的处理。
-				</li>
-				<li>
-					注销：本应用无账号体系，无需注销；卸载应用即完成全部本地数据的移除。
-				</li>
-			</ul>
+      <h2>7. 你的权利</h2>
+      <p>依据相关法律法规，你对个人信息享有以下权利：</p>
+      <ul>
+        <li>查阅与更正：在应用内直接查看、修改你的全部训练数据。</li>
+        <li>复制与导出：通过 iCloud 备份功能导出你的数据。</li>
+        <li>删除：在应用内删除记录，或通过卸载应用清除全部本地数据。</li>
+        <li>撤回同意：在系统设置中关闭通知、iCloud 等权限；撤回不影响此前基于同意已开展的处理。</li>
+        <li>注销：本应用无账号体系，无需注销；卸载应用即完成全部本地数据的移除。</li>
+      </ul>
 
-			<h2>8. 未成年人保护</h2>
-			<p>
-				本应用面向普通健身人群。若你是未成年人，请在监护人同意与指导下使用本应用；监护人如对未成年人使用本应用有疑问，可通过本政策载明的方式联系我们。
-			</p>
+      <h2>8. 未成年人保护</h2>
+      <p>
+        本应用面向普通健身人群。若你是未成年人，请在监护人同意与指导下使用本应用；监护人如对未成年人使用本应用有疑问，可通过本政策载明的方式联系我们。
+      </p>
 
-			<h2>9. 政策更新</h2>
-			<p>
-				我们可能适时更新本隐私政策。更新后会在应用内展示并以显著方式提示；若你继续使用本应用，即表示你已理解并同意更新后的内容。
-			</p>
+      <h2>9. 政策更新</h2>
+      <p>
+        我们可能适时更新本隐私政策。更新后会在应用内展示并以显著方式提示；若你继续使用本应用，即表示你已理解并同意更新后的内容。
+      </p>
 
-			<h2>10. 联系我们</h2>
-			<p>
-				如你对本隐私政策或个人信息保护有任何疑问、意见或投诉，请联系我们：
-			</p>
-			<ul>
-				<li>
-					邮箱：<a href="mailto:a125ab9527cdfe@foxmail.com"
-						>a125ab9527cdfe@foxmail.com</a
-					>
-				</li>
-			</ul>
-		</main>
-	</body>
+      <h2>10. 联系我们</h2>
+      <p>如你对本隐私政策或个人信息保护有任何疑问、意见或投诉，请联系我们：</p>
+      <ul>
+        <li>邮箱：<a href="mailto:a125ab9527cdfe@foxmail.com">a125ab9527cdfe@foxmail.com</a></li>
+      </ul>
+    </main>
+  </body>
 </html>
